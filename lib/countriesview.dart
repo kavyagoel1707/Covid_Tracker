@@ -29,7 +29,7 @@ class _CountriesViewState extends State<CountriesView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.lightBlue[200],
+        backgroundColor: Colors.pink[200],
         title: const Text('Country Stats'),
         centerTitle: false,
       ),

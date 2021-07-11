@@ -15,8 +15,8 @@ void main(){
     home: HomePage(),
     routes: {
       routes.homepage:(context)=>HomePage(),
-      routes.charts:(context)=>Graph(),
       routes.countries:(context)=>CountriesView(),
+      routes.charts:(context)=>Graph(),
       routes.faq:(context)=>FaqView(),
     },
   ));

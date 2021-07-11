@@ -50,7 +50,7 @@ class _GraphState extends State<Graph> {
     return Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
-          backgroundColor: Colors.indigo[200],
+          backgroundColor: Colors.pink[200],
           centerTitle: false,
           title: Text("Charts",style: TextStyle(
             color:Colors.white,
@@ -67,7 +67,7 @@ class _GraphState extends State<Graph> {
                 alignment: Alignment.center,
                 padding: EdgeInsets.all(10),
                 color: Colors.black12,
-                child: Text(DataSource.quote2,style:TextStyle(color: Colors.indigo[300],fontSize: 16,fontWeight: FontWeight.bold),),
+                child: Text(DataSource.quote2,style:TextStyle(color: Colors.pink[300],fontSize: 16,fontWeight: FontWeight.bold),),
               ),
               Container(
                 height:70,
@@ -94,7 +94,7 @@ class _GraphState extends State<Graph> {
               ),
               DeathData(),
               SizedBox(height: 30,),
-              Text("WE ARE IN THIS TOGETHER IN THIS FIGHT",style: TextStyle(fontWeight: FontWeight.bold,color: Colors.indigo[300],fontSize:16, )),
+              Text("WE ARE IN THIS TOGETHER IN THIS FIGHT",style: TextStyle(fontWeight: FontWeight.bold,color: Colors.pink[300],fontSize:16, )),
             ],
           ),
         )

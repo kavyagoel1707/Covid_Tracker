@@ -11,7 +11,7 @@ class FaqView extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title:Text('FAQs'),
-        backgroundColor: Colors.black45,
+        backgroundColor: Colors.pink[200],
       ),
         drawer: createDrawer(context),
 body: ListView.builder(

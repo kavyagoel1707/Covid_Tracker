@@ -29,15 +29,15 @@ Widget createDrawer(BuildContext context){
           },
         ),
         ListTile(
-          title: Text('Charts',style: TextStyle(fontSize: 16),),
-          onTap: (){
-            Navigator.pushReplacementNamed(context,routes.charts);
-          },
-        ),
-        ListTile(
           title: Text('Country Statistics',style: TextStyle(fontSize: 16),),
           onTap: (){
             Navigator.pushReplacementNamed(context,routes.countries);
+          },
+        ),
+        ListTile(
+          title: Text('Charts',style: TextStyle(fontSize: 16),),
+          onTap: (){
+            Navigator.pushReplacementNamed(context,routes.charts);
           },
         ),
         ListTile(

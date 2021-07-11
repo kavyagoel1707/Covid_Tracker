@@ -21,6 +21,7 @@ class _HomePageState extends State<HomePage> {
       appBar:AppBar(
         centerTitle: false,
         title: Text('CovidWatch'),
+        backgroundColor: Colors.pink[200],
       ),
       drawer: createDrawer(context),
       body: SingleChildScrollView(child:Column(
